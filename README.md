@@ -8,6 +8,9 @@ All coreutil commands will be the same as their GNU coreutil commands except wit
 ### rls 
 - current tags: -a
 - DESC: Lists file in current directory, currently the only util thus far.
+### rpwd
+- current tags: none
+- DESC: Prints Working Directory. Not tested as I am currently on Windows and cargo isn't installing, will test when I get the chance.
 
 ## Planned Future Features
 1. More tags for all existing commands
