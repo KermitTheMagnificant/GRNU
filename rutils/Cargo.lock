@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "rls"
+name = "rutils"
 version = "0.1.0"
