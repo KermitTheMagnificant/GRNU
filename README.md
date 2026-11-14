@@ -8,13 +8,28 @@ GNU Rust, Not Unix, a rewrite of GNU software in rust.
 You might be saying "Isn't this just uutils?" and you would be right, except for this was made as a way for myself to learn 1. Rust 2. OS system development, so I don't really care (also I plan on adding more than just coreutils).
 All coreutil commands will be the same as their GNU coreutil commands except with 'r' added to the beginning, for example, 'rls' instead of 'ls'.
 
+## Installation
+GRNU currently runs on Linux and other Unix-like systems only.
+
+1. Install Rust if you don't have it: https://rustup.rs
+2. If you have rustup's old `rls` (the retired Rust Language Server) in `~/.cargo/bin`, remove it, since it uses the same name:
+   ```bash
+   rm -f ~/.cargo/bin/rls
+   ```
+3. Install every rutils command at once:
+   ```bash
+   cargo install --git https://github.com/KermitTheMagnificant/GRNU.git rutils
+   ```
+
+To update to the latest version, run the same `cargo install` command again.
+
 ## Current Features 
 ### rls 
-- current tags: -a
-- DESC: Lists file in current directory, currently the only util thus far.
+- current tags: -a, -l
+- DESC: Lists files in a directory (the current one by default).
 ### rpwd
 - current tags: none
-- DESC: Prints Working Directory. Not tested as I am currently on Windows and cargo isn't installing, will test when I get the chance.
+- DESC: Prints Working Directory.
 
 ## Planned Future Features
 ### Immediate Planned Changes
