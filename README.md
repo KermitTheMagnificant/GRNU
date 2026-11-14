@@ -17,6 +17,19 @@ All coreutil commands will be the same as their GNU coreutil commands except wit
 - DESC: Prints Working Directory. Not tested as I am currently on Windows and cargo isn't installing, will test when I get the chance.
 
 ## Planned Future Features
-1. More tags for all existing commands
-2. more coreutils commands such as cd, mv, cp, etc...
-3. Non coreutils gnu packages, such as tar, sysutils, and maybe even GRUB! (don't get your hopes up for that one)
+### Immediate Planned Changes
+1. cat
+2. chmod/chown/chroot
+3. cp
+4. dd
+5. mkdir
+6. mv
+7. yes
+8. kill
+9. whoami
+10. rm
+### Ambitious Planned Changes
+(I wouldn't count on getting to this point, assuming this stays a personal project.)
+1. nano
+2. bash
+3. GRUB
