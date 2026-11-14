@@ -3,7 +3,7 @@
 </div>
 
 # GRNU
-GNU Rust, Not Unix, a rewrite of GNU software in rust.
+GNU Rust, Not Unix, a rewrite of GNU software in rust (not affiliated with GNU).
 
 You might be saying "Isn't this just uutils?" and you would be right, except for this was made as a way for myself to learn 1. Rust 2. OS system development, so I don't really care (also I plan on adding more than just coreutils).
 All coreutil commands will be the same as their GNU coreutil commands except with 'r' added to the beginning, for example, 'rls' instead of 'ls'.
